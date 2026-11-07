@@ -5,8 +5,8 @@
 <div align="center">
 
 ![Website](https://img.shields.io/website?url=https%3A//beyondbytes.site)
-![GitHub last commit](https://img.shields.io/github/last-commit/sahriarnahid/beyond-bytes)
-![GitHub repo size](https://img.shields.io/github/repo-size/sahriarnahid/beyond-bytes)
+![GitHub last commit](https://img.shields.io/github/last-commit/sahriarnahid/beyondbytes)
+![GitHub repo size](https://img.shields.io/github/repo-size/sahriarnahid/beyondbytes)
 
 </div>
 
@@ -54,7 +54,7 @@ hugo --gc --minify
 npx wrangler pages deploy
 ```
 
-`wrangler.toml` already points Wrangler at the `public` output directory and the `beyond-bytes` Pages project. If your Pages project uses a different name, update `name` in `wrangler.toml` to match it.
+`wrangler.toml` already points Wrangler at the `public` output directory and the `beyondbytes` Pages project. If your Pages project uses a different name, update `name` in `wrangler.toml` to match it.
 
 ## Live Site 🌐
 
