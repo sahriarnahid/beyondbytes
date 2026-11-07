@@ -30,7 +30,31 @@ I'm **Nahid**, and this is my little corner of the internet where I dump everyth
 
 ## Built With 🛠️
 
-Modern web tech, responsive design, client-side search, automated deployments, and a lot of coffee ☕
+Hugo, modern web tech, responsive design, client-side search, automated deployments on Cloudflare Pages, and a lot of coffee ☕
+
+## Deployment ☁️
+
+The site is deployed to [Cloudflare Pages](https://developers.cloudflare.com/pages/) and built from the `main` branch.
+
+Use these settings when creating the Pages project (Git integration):
+
+| Setting | Value |
+| --- | --- |
+| Production branch | `main` |
+| Build command | `hugo --gc --minify` |
+| Build output directory | `public` |
+| Environment variable | `HUGO_VERSION` = `0.150.1` |
+
+Set `HUGO_VERSION` for **both** the Production and Preview environments, otherwise Pages may build with an older Hugo release. The theme is a Git submodule and is cloned automatically during the Pages build.
+
+To deploy manually instead, build the site and upload the output with Wrangler:
+
+```sh
+hugo --gc --minify
+npx wrangler pages deploy
+```
+
+`wrangler.toml` already points Wrangler at the `public` output directory and the `beyond-bytes` Pages project. If your Pages project uses a different name, update `name` in `wrangler.toml` to match it.
 
 ## Live Site 🌐
 
