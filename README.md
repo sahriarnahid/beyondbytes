@@ -4,9 +4,11 @@
 
 <div align="center">
 
-![Website](https://img.shields.io/website?url=https%3A//beyondbytes.site)
+[![Website](https://img.shields.io/website?url=https%3A//beyondbytes.pages.dev/)](https://beyondbytes.pages.dev/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sahriarnahid/beyondbytes)
 ![GitHub repo size](https://img.shields.io/github/repo-size/sahriarnahid/beyondbytes)
+
+[![Beyond Bytes homepage](static/images/screenshot.png)](https://beyondbytes.pages.dev/)
 
 </div>
 
@@ -34,12 +36,13 @@ Hugo, modern web tech, responsive design, client-side search, automated deployme
 
 ## Deployment ☁️
 
-The site is deployed to [Cloudflare Pages](https://developers.cloudflare.com/pages/) and built from the `main` branch.
+The site is live at **[beyondbytes.pages.dev](https://beyondbytes.pages.dev/)** and is deployed to [Cloudflare Pages](https://developers.cloudflare.com/pages/) from the `main` branch.
 
 Use these settings when creating the Pages project (Git integration):
 
 | Setting | Value |
 | --- | --- |
+| Project name | `beyondbytes` |
 | Production branch | `main` |
 | Build command | `hugo --gc --minify` |
 | Build output directory | `public` |
@@ -58,7 +61,7 @@ npx wrangler pages deploy
 
 ## Live Site 🌐
 
-Check it out: **[beyondbytes.site](https://beyondbytes.site)**
+Check it out: **[beyondbytes.pages.dev](https://beyondbytes.pages.dev/)**
 
 ---
 
@@ -69,6 +72,6 @@ Check it out: **[beyondbytes.site](https://beyondbytes.site)**
 _Building the future, one byte at a time._
 
 [![GitHub](https://img.shields.io/badge/Follow-sahriarnahid-181717?style=flat&logo=github)](https://github.com/sahriarnahid)
-[![Website](https://img.shields.io/badge/Visit-Beyond%20Bytes-blue?style=flat&logo=safari)](https://beyondbytes.site)
+[![Website](https://img.shields.io/badge/Visit-Beyond%20Bytes-blue?style=flat&logo=safari)](https://beyondbytes.pages.dev/)
 
 </div>
